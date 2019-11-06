@@ -9,10 +9,7 @@ gen
 /.settings/
 /.springBeans
 /target/
-/.gitignore
+.gitignore
 /user-profile-analysis.iml
 /.idea
 .DS_Store
-————————————————
-版权声明：本文为CSDN博主「健康平安的活着」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/u011066470/article/details/94395451
