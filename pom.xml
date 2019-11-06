@@ -165,6 +165,16 @@
       <artifactId>logback-classic</artifactId>
       <version>1.2.3</version>
     </dependency>
+
+    <!--发现idea的特性，需要手动引入jar,但编译还是报错了，故而引入编译及测试使用-->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <!-- 只在编译和测试的时候用 -->
+      <scope>provided</scope>
+    </dependency>
+
   <!--<dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>com.springsource.org.apache.commons.collections</artifactId>
